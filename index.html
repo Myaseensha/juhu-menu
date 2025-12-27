@@ -69,10 +69,10 @@
             text-align: center;
             position: relative;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-            animation: slideDown 0.5s ease-out;
+            /* animation: slideDown 0.5s ease-out; */
         }
 
-        @keyframes slideDown {
+        /* @keyframes slideDown {
             from {
                 opacity: 0;
                 transform: translateY(-20px);
@@ -81,7 +81,7 @@
                 opacity: 1;
                 transform: translateY(0);
             }
-        }
+        } */
 
         .page-header::after {
             content: '';
@@ -108,7 +108,7 @@
             padding: 8px 20px 5px;
             text-align: center;
             background: linear-gradient(180deg, rgba(212, 175, 55, 0.03) 0%, transparent 100%);
-            animation: fadeIn 0.8s ease-out 0.3s both;
+            /* animation: fadeIn 0.8s ease-out 0.3s both; */
         }
 
         .page-main-title {
@@ -149,18 +149,18 @@
                 0 1px 4px rgba(0, 0, 0, 0.08);
             transition: transform 0.3s, box-shadow 0.3s;
             position: relative;
-            opacity: 0;
+            /* opacity: 0;
             transform: translateY(20px);
-            animation: fadeInUp 0.6s ease-out forwards;
+            animation: fadeInUp 0.6s ease-out forwards; */
         }
 
-        .featured-section:nth-child(1) {
+        /* .featured-section:nth-child(1) {
             animation-delay: 0.1s;
         }
 
         .featured-section:nth-child(2) {
             animation-delay: 0.2s;
-        }
+        } */
 
         .featured-section::before {
             content: '';
@@ -173,12 +173,12 @@
             z-index: 1;
         }
 
-        .featured-section:hover {
+        /* .featured-section:hover {
             transform: translateY(-2px);
             box-shadow: 
                 0 8px 20px rgba(13, 77, 63, 0.2),
                 0 2px 8px rgba(0, 0, 0, 0.1);
-        }
+        } */
 
         .featured-image {
             width: 100%;
@@ -236,11 +236,11 @@
             transition: transform 0.2s, box-shadow 0.2s;
             display: inline-block;
             width: 100%;
-            opacity: 0;
-            animation: fadeIn 0.6s ease-out forwards;
+            /* opacity: 0;
+            animation: fadeIn 0.6s ease-out forwards; */
         }
 
-        .category-block:nth-child(1) { animation-delay: 0.1s; }
+        /* .category-block:nth-child(1) { animation-delay: 0.1s; }
         .category-block:nth-child(2) { animation-delay: 0.15s; }
         .category-block:nth-child(3) { animation-delay: 0.2s; }
         .category-block:nth-child(4) { animation-delay: 0.25s; }
@@ -249,12 +249,12 @@
         .category-block:nth-child(7) { animation-delay: 0.4s; }
         .category-block:nth-child(8) { animation-delay: 0.45s; }
         .category-block:nth-child(9) { animation-delay: 0.5s; }
-        .category-block:nth-child(10) { animation-delay: 0.55s; }
+        .category-block:nth-child(10) { animation-delay: 0.55s; } */
 
-        .category-block:hover {
+        /* .category-block:hover {
             transform: translateY(-1px);
             box-shadow: 0 4px 10px rgba(13, 77, 63, 0.15);
-        }
+        } */
 
         .category-header-wrapper {
             display: flex;
@@ -312,11 +312,11 @@
             border-bottom: 1px dashed rgba(212, 175, 55, 0.6);
             transition: all 0.2s ease;
             border-radius: 3px;
-            opacity: 0;
-            animation: fadeInItem 0.3s ease-out forwards;
+            /* opacity: 0;
+            animation: fadeInItem 0.3s ease-out forwards; */
         }
 
-        .menu-item:nth-child(1) { animation-delay: 0.1s; }
+        /* .menu-item:nth-child(1) { animation-delay: 0.1s; }
         .menu-item:nth-child(2) { animation-delay: 0.15s; }
         .menu-item:nth-child(3) { animation-delay: 0.2s; }
         .menu-item:nth-child(4) { animation-delay: 0.25s; }
@@ -325,9 +325,9 @@
         .menu-item:nth-child(7) { animation-delay: 0.4s; }
         .menu-item:nth-child(8) { animation-delay: 0.45s; }
         .menu-item:nth-child(9) { animation-delay: 0.5s; }
-        .menu-item:nth-child(10) { animation-delay: 0.55s; }
+        .menu-item:nth-child(10) { animation-delay: 0.55s; } */
 
-        @keyframes fadeInItem {
+        /* @keyframes fadeInItem {
             from {
                 opacity: 0;
                 transform: translateX(-10px);
@@ -336,12 +336,12 @@
                 opacity: 1;
                 transform: translateX(0);
             }
-        }
+        } */
 
-        .menu-item:hover {
+        /* .menu-item:hover {
             background: rgba(212, 175, 55, 0.04);
             transform: translateX(3px);
-        }
+        } */
 
         .menu-item:last-child {
             border-bottom: none;
@@ -366,7 +366,7 @@
             border-radius: 3px;
         }
 
-        @keyframes fadeInUp {
+        /* @keyframes fadeInUp {
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -380,7 +380,7 @@
             to {
                 opacity: 1;
             }
-        }
+        } */
 
         .footer-note {
             text-align: center;
@@ -411,9 +411,9 @@
             transition: opacity 0.3s;
         }
 
-        .category-block:hover::before {
+        /* .category-block:hover::before {
             opacity: 0.3;
-        }
+        } */
 
         /* ================= TABLET ================= */
         @media (max-width: 1400px) {
@@ -745,6 +745,25 @@
                             <span class="item-price">₹ 250</span>
                         </div>
                     </div>
+                      <!-- Sandwich -->
+                    <div class="category-block">
+                        <div class="category-header-wrapper">
+                            <img src="https://www.eatingwell.com/thmb/GmHysm2HNZOEnqJrkt6aIJDrdec=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/loaded-cucumber-and-avocado-sandwich-e8edb61dcc8044e28cfa835ad4282719.jpg" alt="Sandwich" class="category-image">
+                            <h3 class="category-header">Sandwich</h3>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Veg Grill Sandwich</span>
+                            <span class="item-price">₹ 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Veg Cheese Grill Sandwich</span>
+                            <span class="item-price">₹ 220</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Tandoori Paneer Sandwich</span>
+                            <span class="item-price">₹ 230</span>
+                        </div>
+                    </div>
 
                     <!-- Fries -->
                     <div class="category-block">
@@ -770,25 +789,7 @@
                         </div>
                     </div>
 
-                    <!-- Sandwich -->
-                    <div class="category-block">
-                        <div class="category-header-wrapper">
-                            <img src="https://www.eatingwell.com/thmb/GmHysm2HNZOEnqJrkt6aIJDrdec=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/loaded-cucumber-and-avocado-sandwich-e8edb61dcc8044e28cfa835ad4282719.jpg" alt="Sandwich" class="category-image">
-                            <h3 class="category-header">Sandwich</h3>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Veg Grill Sandwich</span>
-                            <span class="item-price">₹ 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Veg Cheese Grill Sandwich</span>
-                            <span class="item-price">₹ 220</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Tandoori Paneer Sandwich</span>
-                            <span class="item-price">₹ 230</span>
-                        </div>
-                    </div>
+                  
 
                     <!-- Garlic Bread & Momos -->
                     <div class="category-block">
@@ -959,52 +960,7 @@
                             <span class="item-price">₹ 75</span>
                         </div>
                     </div>
-
-                    <!-- Kulfi -->
-                    <div class="category-block">
-                        <div class="category-header-wrapper">
-                            <img src="https://tse2.mm.bing.net/th/id/OIP.SbFAzcFez9yb_Pm4duFQ1gHaJ4?w=1920&h=2560&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kulfi" class="category-image">
-                            <h3 class="category-header">Kulfi</h3>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Malai Kulfi</span>
-                            <span class="item-price">₹ 70 / 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Kesar Kulfi</span>
-                            <span class="item-price">₹ 70 / 190</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Kaju Anjeer Kulfi</span>
-                            <span class="item-price">₹ 70 / 190</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Badam Kulfi</span>
-                            <span class="item-price">₹ 70 / 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Mango Kulfi</span>
-                            <span class="item-price">₹ 70 / 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Strawberry Kulfi</span>
-                            <span class="item-price">₹ 70 / 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Chocolate Kulfi</span>
-                            <span class="item-price">₹ 70 / 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Butterscotch Kulfi</span>
-                            <span class="item-price">₹ 70 / 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Mix Kulfi</span>
-                            <span class="item-price">₹ 150 / 200</span>
-                        </div>
-                    </div>
-
-                    <!-- Milk Made Gola -->
+                                        <!-- Milk Made Gola -->
                     <div class="category-block">
                         <div class="category-header-wrapper">
                             <img src="https://i.ytimg.com/vi/pU11_qXS0oM/maxresdefault.jpg" alt="Milk Made" class="category-image">
@@ -1055,168 +1011,7 @@
                             <span class="item-price">₹ 250</span>
                         </div>
                     </div>
-
-                    <!-- Soda -->
-                    <div class="category-block">
-                        <div class="category-header-wrapper">
-                            <img src="https://tse4.mm.bing.net/th/id/OIP.An7coF_ZxinI5IQgiUtISgHaEW?w=493&h=290&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Soda" class="category-image">
-                            <h3 class="category-header">Soda</h3>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Lime Soda</span>
-                            <span class="item-price">₹ 70</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Masala Lemon</span>
-                            <span class="item-price">₹ 80</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Kala Khatta</span>
-                            <span class="item-price">₹ 80</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Orange</span>
-                            <span class="item-price">₹ 80</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Green Mango</span>
-                            <span class="item-price">₹ 80</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Lemonade</span>
-                            <span class="item-price">₹ 50</span>
-                        </div>
-                    </div>
-
-                    <!-- Mojito & Specials -->
-                    <div class="category-block">
-                        <div class="category-header-wrapper">
-                            <img src="https://tse1.mm.bing.net/th/id/OIP.4yym1B3f6zrKSEz3QjQ1HwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Mojito" class="category-image">
-                            <h3 class="category-header">Mojito & Specials</h3>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Normal Mojito</span>
-                            <span class="item-price">₹ 130</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Sprit Mojito</span>
-                            <span class="item-price">₹ 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Coconut Punch</span>
-                            <span class="item-price">₹ 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Cold Coffee</span>
-                            <span class="item-price">₹ 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Pineapple Lime</span>
-                            <span class="item-price">₹ 100</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Green Lime</span>
-                            <span class="item-price">₹ 90</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Lemon Ice Tea</span>
-                            <span class="item-price">₹ 130</span>
-                        </div>
-                    </div>
-
-                    <!-- Falooda Glass -->
-                    <div class="category-block">
-                        <div class="category-header-wrapper">
-                            <img src="https://desicart.co.uk/cdn/shop/collections/1_535bc2d0-e4d6-441c-9aa8-d834022482e6.jpg?v=1600789458" alt="Falooda" class="category-image">
-                            <h3 class="category-header">Falooda Glass</h3>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Rose Falooda</span>
-                            <span class="item-price">₹ 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Royal Falooda</span>
-                            <span class="item-price">₹ 170</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Keshar Falooda</span>
-                            <span class="item-price">₹ 170</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Butter Falooda</span>
-                            <span class="item-price">₹ 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Mango Falooda</span>
-                            <span class="item-price">₹ 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Chocolate Falooda</span>
-                            <span class="item-price">₹ 170</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Strawberry Falooda</span>
-                            <span class="item-price">₹ 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Mix Ice Cream</span>
-                            <span class="item-price">₹ 180</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Dry Fruit</span>
-                            <span class="item-price">₹ 260</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Rabdi Falooda</span>
-                            <span class="item-price">₹ 300</span>
-                        </div>
-                    </div>
-
-                    <!-- Milk Shake -->
-                    <div class="category-block">
-                        <div class="category-header-wrapper">
-                            <img src="https://preppykitchen.com/wp-content/uploads/2021/04/Milkshake-Recipe-Card.jpg" alt="Shake" class="category-image">
-                            <h3 class="category-header">Milk Shake</h3>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Vanilla</span>
-                            <span class="item-price">₹ 140</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Strawberry</span>
-                            <span class="item-price">₹ 140</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Kesar</span>
-                            <span class="item-price">₹ 180</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Mango</span>
-                            <span class="item-price">₹ 140</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Chocolate</span>
-                            <span class="item-price">₹ 150</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Butter Scotch</span>
-                            <span class="item-price">₹ 140</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Dry Fruit</span>
-                            <span class="item-price">₹ 160</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">Oreo</span>
-                            <span class="item-price">₹ 180</span>
-                        </div>
-                        <div class="menu-item">
-                            <span class="item-name">KitKat</span>
-                            <span class="item-price">₹ 190</span>
-                        </div>
-                    </div>
-
-                    <!-- Milk Made Dish -->
+                       <!-- Milk Made Dish -->
                     <div class="category-block">
                         <div class="category-header-wrapper">
                             <img src="https://images.herzindagi.info/image/2021/May/inside2-ice-dish.jpg" alt="Milk Made Dish" class="category-image">
@@ -1264,7 +1059,52 @@
                         </div>
                     </div>
 
-                    <!-- Kulfi Falooda Rabdi -->
+
+                    <!-- Kulfi -->
+                    <div class="category-block">
+                        <div class="category-header-wrapper">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.SbFAzcFez9yb_Pm4duFQ1gHaJ4?w=1920&h=2560&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kulfi" class="category-image">
+                            <h3 class="category-header">Kulfi</h3>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Malai Kulfi</span>
+                            <span class="item-price">₹ 70 / 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Kesar Kulfi</span>
+                            <span class="item-price">₹ 70 / 190</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Kaju Anjeer Kulfi</span>
+                            <span class="item-price">₹ 70 / 190</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Badam Kulfi</span>
+                            <span class="item-price">₹ 70 / 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mango Kulfi</span>
+                            <span class="item-price">₹ 70 / 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Strawberry Kulfi</span>
+                            <span class="item-price">₹ 70 / 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Chocolate Kulfi</span>
+                            <span class="item-price">₹ 70 / 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Butterscotch Kulfi</span>
+                            <span class="item-price">₹ 70 / 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mix Kulfi</span>
+                            <span class="item-price">₹ 150 / 200</span>
+                        </div>
+                    </div>
+
+  <!-- Kulfi Falooda Rabdi -->
                     <div class="category-block">
                         <div class="category-header-wrapper">
                             <img src="https://tse2.mm.bing.net/th/id/OIP.OPeaB5IXR6YNU17ciAAtIAHaHa?w=696&h=696&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kulfi Falooda" class="category-image">
@@ -1341,6 +1181,164 @@
                         <div class="menu-item">
                             <span class="item-name">Chocolate</span>
                             <span class="item-price">₹ 190</span>
+                        </div>
+                    </div>
+<!-- Falooda Glass -->
+                    <div class="category-block">
+                        <div class="category-header-wrapper">
+                            <img src="https://desicart.co.uk/cdn/shop/collections/1_535bc2d0-e4d6-441c-9aa8-d834022482e6.jpg?v=1600789458" alt="Falooda" class="category-image">
+                            <h3 class="category-header">Falooda Glass</h3>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Rose Falooda</span>
+                            <span class="item-price">₹ 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Royal Falooda</span>
+                            <span class="item-price">₹ 170</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Keshar Falooda</span>
+                            <span class="item-price">₹ 170</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Butter Falooda</span>
+                            <span class="item-price">₹ 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mango Falooda</span>
+                            <span class="item-price">₹ 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Chocolate Falooda</span>
+                            <span class="item-price">₹ 170</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Strawberry Falooda</span>
+                            <span class="item-price">₹ 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mix Ice Cream</span>
+                            <span class="item-price">₹ 180</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Dry Fruit</span>
+                            <span class="item-price">₹ 260</span>
+                        </div>
+                       
+                    </div>
+<!-- Milk Shake -->
+                    <div class="category-block">
+                        <div class="category-header-wrapper">
+                            <img src="https://preppykitchen.com/wp-content/uploads/2021/04/Milkshake-Recipe-Card.jpg" alt="Shake" class="category-image">
+                            <h3 class="category-header">Milk Shake</h3>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Vanilla</span>
+                            <span class="item-price">₹ 140</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Strawberry</span>
+                            <span class="item-price">₹ 140</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Kesar</span>
+                            <span class="item-price">₹ 180</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mango</span>
+                            <span class="item-price">₹ 140</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Chocolate</span>
+                            <span class="item-price">₹ 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Butter Scotch</span>
+                            <span class="item-price">₹ 140</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Dry Fruit</span>
+                            <span class="item-price">₹ 160</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Oreo</span>
+                            <span class="item-price">₹ 180</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">KitKat</span>
+                            <span class="item-price">₹ 190</span>
+                        </div>
+                    </div>
+
+                 
+                  
+                  
+                    <!-- Soda -->
+                    <div class="category-block">
+                        <div class="category-header-wrapper">
+                            <img src="https://tse4.mm.bing.net/th/id/OIP.An7coF_ZxinI5IQgiUtISgHaEW?w=493&h=290&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Soda" class="category-image">
+                            <h3 class="category-header">Soda</h3>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Lime Soda</span>
+                            <span class="item-price">₹ 70</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Masala Lemon</span>
+                            <span class="item-price">₹ 80</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Kala Khatta</span>
+                            <span class="item-price">₹ 80</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Orange</span>
+                            <span class="item-price">₹ 80</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Green Mango</span>
+                            <span class="item-price">₹ 80</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Lemonade</span>
+                            <span class="item-price">₹ 50</span>
+                        </div>
+                    </div>
+
+                    <!-- Mojito & Specials -->
+                    <div class="category-block">
+                        <div class="category-header-wrapper">
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.4yym1B3f6zrKSEz3QjQ1HwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Mojito" class="category-image">
+                            <h3 class="category-header">Mojito & Specials</h3>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Normal Mojito</span>
+                            <span class="item-price">₹ 130</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Sprit Mojito</span>
+                            <span class="item-price">₹ 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Coconut Punch</span>
+                            <span class="item-price">₹ 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Cold Coffee</span>
+                            <span class="item-price">₹ 150</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Pineapple Lime</span>
+                            <span class="item-price">₹ 100</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Green Lime</span>
+                            <span class="item-price">₹ 90</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Lemon Ice Tea</span>
+                            <span class="item-price">₹ 130</span>
                         </div>
                     </div>
 
